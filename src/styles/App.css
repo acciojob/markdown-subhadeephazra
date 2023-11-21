@@ -1,3 +1,9 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
 h1 {
     color: #27aedb;
     text-align: center;
@@ -9,4 +15,20 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+.preview{
+    overflow-y: auto ;
+    height: 100%;
+    width: 50%;
+}
+.textarea{
+    height: 100%;
+    width: 50%;
 }
